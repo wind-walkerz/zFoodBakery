@@ -1,0 +1,18 @@
+.wrapper {
+    background-color: #C33332;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 3em;
+    height: 3em;
+    padding: 0.4em;
+}
+
+.bar {
+    height: 0.2em;
+    width: 100%;
+    background-color: white;
+    transition: all 0.2s;
+}

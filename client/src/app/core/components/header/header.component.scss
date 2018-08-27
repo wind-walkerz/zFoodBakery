@@ -1,0 +1,33 @@
+@import "variables";
+
+.container {
+    grid-template: "logo   main-nav   location   login-option" 70px /
+        1fr 1fr 1fr 1fr;
+    align-items: center;
+    color: #444;
+    .logo {
+        grid-area: logo;
+    }
+    .main-nav {
+
+        display: flex;
+        justify-content: space-between;
+        grid-area: main-nav;
+        a {
+            color: #2d3a4b;
+            font-size: 1.8em;
+
+        }
+    }
+    .location {
+        grid-area: location;
+    }
+    .login-option {
+        grid-area: login-option;
+    }
+}
+
+
+
+
+

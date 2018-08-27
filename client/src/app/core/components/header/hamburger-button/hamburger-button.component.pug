@@ -1,0 +1,9 @@
+.wrapper(
+    [@hamburger_button]="animation_state",
+    (click)="animation_state = (animation_state === 'default') ? 'clicked' : 'default'"
+)
+    .bar([@bar_1]="animation_state")
+    .bar([@bar_2]="animation_state")
+    .bar([@bar_3]="animation_state")
+
+
