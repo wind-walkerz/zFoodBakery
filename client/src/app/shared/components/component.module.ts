@@ -4,9 +4,13 @@ import {ImageComponent} from "./Image/Image";
 import {RouterModule} from "@angular/router";
 
 @NgModule({
-    declarations: [ImageComponent],
+    declarations: [
+        ImageComponent
+    ],
     imports: [RouterModule],
-    exports: [ImageComponent]
+    exports: [
+        ImageComponent
+    ]
 })
 export class ComponentModule {
 }
