@@ -16,4 +16,8 @@ export class HeaderComponent implements OnInit {
     ngOnInit() {
     }
 
+    test = () => {
+        console.log("dsfjskl")
+    }
+
 }

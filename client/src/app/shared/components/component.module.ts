@@ -2,14 +2,17 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ImageComponent} from "./Image/Image";
 import {RouterModule} from "@angular/router";
+import {ButtonComponent} from "./Button/Button";
 
 @NgModule({
     declarations: [
-        ImageComponent
+        ImageComponent,
+        ButtonComponent
     ],
     imports: [RouterModule],
     exports: [
-        ImageComponent
+        ImageComponent,
+        ButtonComponent
     ]
 })
 export class ComponentModule {
